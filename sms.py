@@ -7,9 +7,9 @@ client = Client(account_sid, auth_token)
 
 message = client.messages \
                 .create(
-                     body="Guess who Hank?",
-                     from_='+19712479952',
-                     to='+13522995988'
+                     body="Guess who?",
+                     from_='+0000000000',
+                     to='+0000000000'
                  )
 
 print(message.sid)
